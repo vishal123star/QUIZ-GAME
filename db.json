@@ -1,24 +1,64 @@
 {
   "questions": [
     {
-      "question": "Which type of JavaScript language is?",
+      "question": "Which of the following has no Skeleton at all?",
       "options": [
-        "Object-Oriented",
-        "Object-Based",
-        "Assembly-language",
-        "High-level"
+        "Star Fish",
+        "Sponge",
+        "Jelly Fish",
+        "Silver Fish"
+      ],
+      "ans": 3
+    },
+    {
+      "question": "What animal has the worst memory?",
+      "options": [
+        "Dog",
+        "Rat",
+        "Elephant",
+        "Dolphin"
+      ],
+      "ans": 3
+    },
+    {
+      "question": "In which of the following groups animals bear no teeth ?",
+      "options": [
+        "Peacock, Ostrich and Tortoise",
+        "Turtle, Kiwi and Cow",
+        "Owl, Loris and Crow",
+        "Alligator, Turtle and Tortoise"
+      ],
+      "ans": 1
+    },
+    {
+      "question": "Name the bird that migrates from the north pole to the south pole and back?",
+      "options": [
+        "Swallow",
+        "Arctic tern",
+        "Crane",
+        "Penguin"
       ],
       "ans": 2
     },
     {
-      "question": "Which type of JavaScript language is?",
+      "question": "Which animal can create the loudest sound among any living creature?",
       "options": [
-        "Object-Oriented",
-        "Object-Based",
-        "Assembly-language",
-        "High-level"
+        "Whale shark",
+        "Gibbon",
+        "Humpback Whales",
+        "Howler monkey"
       ],
-      "ans": 2
+      "ans": 3
+    },
+    {
+      "question": "This animal fasts for about 8 months in a year and yet is active, gives birth, and nurses its young while fasting. Name the animal",
+      "options": [
+        "Polar Bear",
+        "Frog",
+        "Reindeer",
+        "Lion"
+      ],
+      "ans": 1
     }
   ],
   "scores": []
