@@ -23,10 +23,10 @@
     {
       "question": "In which of the following groups animals bear no teeth ?",
       "options": [
-        "Peacock, Ostrich and Tortoise",
-        "Turtle, Kiwi and Cow",
-        "Owl, Loris and Crow",
-        "Alligator, Turtle and Tortoise"
+        "Peacock",
+        "Turtle",
+        "Owl",
+        "Alligator"
       ],
       "ans": 1
     },
