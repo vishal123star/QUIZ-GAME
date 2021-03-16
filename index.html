@@ -1,43 +1,91 @@
-<html>
-<head lang="en">
-<meta charset="UTF-8">
-<title>Enjoy the quiz game</title>
-<link rel="stylesheet" type="text/css" href="style.css">
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link rel="stylesheet" href="./css/index.css">
+
+  <title>Online Quiz</title>
+
 </head>
+
 <body>
-<div class="grid">
-<div id="quiz">
-<h1> Quiz Game </h1>
-<hr style="margin-bottom: 20px">
-<p id="question"> </p>
 
-<div class="button">
-<button id="bt0"> <span id="choice0"> </span> </button>
-<button id="bt1"> <span id="choice1"> </span> </button>
-<button id="bt2"> <span id="choice2"> </span> </button>
-<button id="bt3"> <span id="choice3"> </span> </button>
+  <div class="container">
 
-</div>
+    <!-- START UP SCREEN START -->
+    <div id="start-up-screen">
+      <div class="flx-div">
+        <div class="text-center">
+          <h3 class="text-primary">Welcome</h3>
+          <h1 class="text-primary">Online Quiz</h1>
+        </div>
+      </div>
+      <div class="flx-div">
+        <div class="panel panel-primary">
+          <div class="panel-body">
+            <div>
+              <form id="form">
+                <div class="form-group">
+                  <label>Student ID <span class="text-danger">*</span> </label>
+                  <input type="text" class="form-control" name="studentId" id="studentId" maxlength="20"
+                    placeholder="Enter your Student ID" />
+                </div>
+                <div class="form-group">
+                  <label>Choose Level <span class="text-danger">*</span> </label>
+                  <select name="level" class="form-control" id="level">
+                    <option value="Easy">Easy</option>
+                    <option value="Medium">Medium</option>
+                    <option value="Hard">Hard</option>
+                  </select>
+                </div>
+                <button class="btn btn-primary btn-block" id="submit-btn">
+                  Submit
+                </button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- START UP SCREEN END -->
 
-<hr style="margin-top: 50px">
 
-<footer>
-<p id="progress"> Question x of y</p>
-</footer>
-</div>
-</div>
+    <!-- QUESTIONS BLOCK -->
+    <div id="questions-block">
+      
+      <div id="question-header">
+        <div class="title">
+          <strong>Please anwer the following questions</strong>
+        </div>
+        <div class="text-danger">
+          <small>You have only</small>
+          <strong id="timer">30 secs</strong>
+          <small>left</small>
+        </div>
+      </div>
 
-<script src="quiz1.js"> </script>
-<script src="questions.js"> </script>
-<script src="quiz.js"> </script>
+      <div id="score-board"></div>
+
+      <br>
+      <div id="questions-block-inner"></div>
+      <div class="text-right">
+        <button class="btn btn-primary" id="question-submit-btn">Submit</button>
+      </div>
+    </div>
+
+  </div>
 
 
 
 
-
+  <script src="./js/index.js"></script>
 
 </body>
-
-
 
 </html>
